@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@frontity/core": "^1.11.0"
+  }
+}
