@@ -45,7 +45,7 @@ const Nav = ({ state, libraries, actions }) => {
           return (
             <NavItemWithChild key={id}>
               <MenuItem key={id}>
-                <Link link='#'> LANGUAGE </Link>
+                <Link link='#'> SWITCHER </Link>
               </MenuItem>
 
 

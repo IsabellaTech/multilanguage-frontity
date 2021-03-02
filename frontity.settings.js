@@ -3,7 +3,7 @@ const settings = [
     "name": "multilanguage-en",
     "state": {
       "frontity": {
-        "url": "https://alejandro.inmo.cloud/",
+        "url": "https://multilanguage-frontity.vercel.app/",
         "title": "Test Frontity Blog ENGLISH",
         "description": "WordPress installation for Frontity development"
       }
@@ -76,10 +76,10 @@ const settings = [
   //SPANISH VERSION
   {
     "name": "multilanguage-es",
-    "match": [".*localhost:3000/es(\/.*)?$"],
+    "match": [".*multilanguage-frontity.vercel.app/es(\/.*)?$"],
     "state": {
       "frontity": {
-        "url": "https://alejandro.inmo.cloud/es/",
+        "url": "https://multilanguage-frontity.vercel.app/es/",
         "title": "Test Frontity Blog ESPAÑOL",
         "description": "WordPress instalacion en frontity"
       }
