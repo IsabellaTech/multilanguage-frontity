@@ -109,7 +109,7 @@ const settings = [
                 "url": "#"
               },
               {
-                "languages": [{ "lang": "ENG", "url": "/en/" }],
+                "languages": [{ "lang": "ENG", "url": "/" }],
               },
               {
                 "name": "|",

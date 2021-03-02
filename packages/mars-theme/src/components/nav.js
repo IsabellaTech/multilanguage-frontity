@@ -6,30 +6,10 @@ import Link from "./link";
  *
  * It renders the navigation links
  */
-const Nav = ({ state, libraries, actions }) => {
+const Nav = ({ state}) => {
   //const items = state.source.get(`/menu/${state.theme.menuUrl}/`)?.items;
   const items = state.theme.menu;
   const url = state.router.link;
-  console.log(items)
-  const options_lang = [
-    { type: 'inputLanguage', value: 'en', label: 'English' },
-    { type: 'inputLanguage', value: 'es', label: 'Español' },
-  ]
-
-  const handleInputChangeUrl = (e) => {
-    console.log(e.target.baseURI);
-    console.log(e.target.value);
-    let newUrl = e.target.baseURI
-
-    options_lang.map(({ value }, id) =>
-      e.target.baseURI.includes(`/${value}/`) == true && (
-        newUrl = newUrl.replace(value, e.target.value)
-      )
-    );
-
-    actions.router.set(newUrl);
-
-  }
 
   return (
     <MenuContainer>
